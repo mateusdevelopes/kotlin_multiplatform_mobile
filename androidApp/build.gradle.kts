@@ -42,6 +42,9 @@ dependencies {
     implementation(project(":shared"))
 //    implementation(Accompanist.SystemUiController)
 
+    implementation(Androidx.core)
+    implementation(Androidx.lifecycleRuntime)
+
     // CORE
     implementation(Compose.ui)
     implementation(Compose.material)
